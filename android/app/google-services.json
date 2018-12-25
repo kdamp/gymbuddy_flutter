@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "479109313676",
+    "firebase_url": "https://pr-app-develop.firebaseio.com",
+    "project_id": "pr-app-develop",
+    "storage_bucket": "pr-app-develop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479109313676:android:32ba7d4f31c3864e",
+        "android_client_info": {
+          "package_name": "com.tupledev.gymbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479109313676-aqo1erru8jhm3k4m20sofsa30oha1eg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8QDy7hfAA0R2PJJuz57V6glm0wFWJiwI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
