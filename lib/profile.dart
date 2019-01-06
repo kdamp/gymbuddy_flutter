@@ -32,7 +32,7 @@ class ProfileScreen extends StatelessWidget {
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.only(right: 16.0),
-                  child: Icon(Icons.account_circle, size: 32.0,),
+                  child: Icon(Icons.account_circle),
                 ),
                 Expanded(child: Center(child: Text("Login to Gym Buddy", style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),))),
               ],
@@ -49,7 +49,7 @@ class ProfileScreen extends StatelessWidget {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.only(right: 16.0),
-                    child: Icon(MdiIcons.facebookBox, size: 32.0,),
+                    child: Icon(MdiIcons.facebook),
                   ),
                   Expanded(child: Center(child: Text("Login to Facebook", style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),))),
                 ],
@@ -65,7 +65,7 @@ class ProfileScreen extends StatelessWidget {
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.only(right: 16.0),
-                  child: Icon(MdiIcons.google, size: 32.0,),
+                  child: Icon(MdiIcons.google),
                 ),
                 Expanded(child: Center(child: Text("Login to Google", style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),))),
               ],

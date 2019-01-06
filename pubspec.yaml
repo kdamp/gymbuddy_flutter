@@ -1,4 +1,4 @@
-name: gymbuddy_flutter
+name: gymbuddy
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -17,8 +17,11 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   material_design_icons_flutter: 3.0.3289
+  shared_preferences: ^0.4.3
   firebase_core: ^0.2.5
   firebase_analytics: ^1.0.4
+  firebase_auth: ^0.6.6
+  cloud_firestore: ^0.8.2+3
 
 dev_dependencies:
   flutter_test:
@@ -37,8 +40,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+    - sampledata/exampleImg.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
